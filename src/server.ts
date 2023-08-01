@@ -1,6 +1,7 @@
 import crypto from 'crypto'
 import fastify, { FastifyReply, FastifyRequest } from 'fastify'
 import { knex } from './database'
+import { env } from './env'
 
 const app = fastify()
 
@@ -48,7 +49,7 @@ app.delete('/transaction/:id', async (request: FastifyRequest, reply: FastifyRep
 
 app
   .listen({
-    port: 3333,
+    port: env.PORT,
   })
   .then(() => {
     console.log('Server running on port 3333 🚀')
