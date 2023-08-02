@@ -20,6 +20,8 @@ knex.js
 zod
 dotenv
 vitest
+supertest
+tsup
 
 ## Requisitos
 

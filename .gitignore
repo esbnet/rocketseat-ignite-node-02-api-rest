@@ -1,4 +1,12 @@
+# Build 
+build
+
+# Dependencies
 node_modules
-data
+
+# Database
+*.db
+
+# Environimnet
 .env
 .env.test
