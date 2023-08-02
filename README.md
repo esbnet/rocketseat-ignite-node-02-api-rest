@@ -44,5 +44,10 @@ tsup
 
 # Instalação
 
+Render - render.com
+Fly.io - fly.io
+Railway - railway.app
+
+
 # Testes
 
