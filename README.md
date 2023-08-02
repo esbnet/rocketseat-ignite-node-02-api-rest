@@ -19,6 +19,7 @@ fastfy 4.21
 knex.js 
 zod
 dotenv
+vitest
 
 ## Requisitos
 
@@ -33,11 +34,13 @@ dotenv
 ### Não funcionais
 
 - [x] A transação poder ser tipo crédito que somará ao valor total, ou débito subtrairá;
-- [ ] Deve ser possível identificarmos o usuário entre as requisições;
-- [ ] O usuáiro só pode visualizar transações o qual ele criou;
+- [x] Deve ser possível identificarmos o usuário entre as requisições;
+- [x] O usuáiro só pode visualizar transações o qual ele criou;
 
 
 ## Regras de Negócio
 
 # Instalação
+
+# Testes
 
